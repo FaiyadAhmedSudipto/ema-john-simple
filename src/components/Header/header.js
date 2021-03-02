@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../images/logo.png';
+import logo from '../../images/Punjab-Kings.jpg';
 // "../"  means go one file back/up.
 import './header.css'
 // "./"  means on the same file.
@@ -9,9 +9,9 @@ const header = () => {
         <div className="header">
             <img src={logo} alt=""></img>
             <nav>
-                <a href="/shop">Shop</a>
-                <a href="/order">Order Review</a>
-                <a href="/manage">Manage Inventory here</a>
+                <a href="/players">Players</a>
+                <a href="/oldteam">Your Team</a>
+                <a href="/newteam">Your New Players</a>
             </nav>
 
 
