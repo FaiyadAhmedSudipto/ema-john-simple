@@ -13,16 +13,28 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header img{
+  height: 80%;
+  width: 80%;
 }
+.header{
+  text-align: center;
+}
+.header nav{
+  background-color: #FF4778;
+  line-height: 50px;
+  font-size: 25px;
+}
+nav a{
+  text-decoration: none;
+  color: #F3EFFE;
+  margin-right: 20px;
+  padding: 5px;
+}
+nav a:hover{
+  background-color: #EE316B;
+}
+
 
 .App-link {
   color: #61dafb;

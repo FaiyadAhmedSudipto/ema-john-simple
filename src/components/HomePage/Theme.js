@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import data from '../../fakeData/data.json';
 import './Theme.css'
-import Player from '../Player/Player';
-import Price from '../PriceManage/Price';
+import Rides from '../Vehicles/Rides';
 
 
 const Theme = () => {
@@ -16,8 +15,6 @@ const Theme = () => {
     const people = data;
     const [players, setPlayers] = useState(people);
 
-    
-
     const handleAddProduct = (players) => {
         // console.log("Product Added", players);
         const newPrice = [...price, players];
@@ -26,17 +23,12 @@ const Theme = () => {
 
     return (
         <div className='shop-container'>
-            <div className="product-container">
+            <div>
                 <ul>
                     {
-                        players.map(product => <Player
-                            handleAddProduct={handleAddProduct}
-                            players={product}></Player>)
+                        players.map(product => <Rides handleAddProduct={handleAddProduct} players={product}></Rides>)
                     }
                 </ul>
-            </div>
-            <div className="cart-container">
-                <Price price={price}></Price>
             </div>
         </div>
     );

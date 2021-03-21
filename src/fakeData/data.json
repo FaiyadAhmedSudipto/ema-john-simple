@@ -1,68 +1,26 @@
 [
     {
         "id": 1,
-        "names": "Glenn Maxwell",
-        "image": "https://i.ibb.co/GtqPBHh/glenn-maxwell.jpg",
-        "price": 9700
+        "names": "Bike",
+        "image": "https://i.ibb.co/pbHRmHD/Frame.png",
+        "price": 50
     },
     {
         "id": 2,
-        "names": "Kyle Jamieson",
-        "image": "https://i.ibb.co/Qrm9Zh8/2-Kyle-Jamieson.jpg",
-        "price": 4300
+        "names": "Bus",
+        "image": "https://i.ibb.co/RQ5zb89/Frame-1.png",
+        "price": 40
     },
     {
         "id": 3,
-        "names": "Saurabh Kumar",
-        "image": "https://i.ibb.co/1R1y093/3-Saurabh-Kumar.jpg",
-        "price": 7400
+        "names": "Car",
+        "image": "https://i.ibb.co/FwvsgDw/Frame-2.png",
+        "price": 59
     },
     {
         "id": 4,
-        "names": "Utkarsh Singh",
-        "image": "https://i.ibb.co/d60qdjv/4-Utkarsh-Singh.jpg",
-        "price": 5230
-    },
-    {
-        "id": 5,
-        "names": "Dawid Malan",
-        "image": "https://i.ibb.co/KNf4X93/5-Dawid-Malan.jpg",
-        "price": 6200
-    },
-    {
-        "id": 6,
-        "names": "Jhye Richardson",
-        "image": "https://i.ibb.co/5j7RmQk/6-Jhye-Richardson.jpg",
-        "price": 4300
-    },
-    {
-        "id": 7,
-        "names": "Jalaj Saxena",
-        "image": "https://i.ibb.co/qBq8Ykm/7-Jalaj-Saxena.jpg",
-        "price": 2900
-    },
-    {
-        "id": 8,
-        "names": "Riley Meredith",
-        "image": "https://i.ibb.co/QD8t6vg/8-Riley-Meredith.jpg",
-        "price": 3100
-    },
-    {
-        "id": 9,
-        "names": "Fabian Allen",
-        "image": "https://i.ibb.co/8bR6srG/9-Fabian-Allen.jpg",
-        "price": 4500
-    },
-    {
-        "id": 10,
-        "names": "Moises Henriques",
-        "image": "https://i.ibb.co/c27mQ1f/10-Moises-Henriques.jpg",
-        "price": 6800
-    },
-    {
-        "id": 11,
-        "names": "Sharukh Khan",
-        "image": "https://i.ibb.co/c8HGHDL/11-Sharukh-Khan.jpg",
-        "price": 2990
+        "names": "Train",
+        "image": "https://i.ibb.co/znpg8gS/Group.png",
+        "price": 70
     }
 ]
